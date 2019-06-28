@@ -1,0 +1,6 @@
+E:\from_kubo\vector_rotation\x64\Release\input\patch\patch_S1.mhd
+E:\from_kubo\vector_rotation\x64\Release\input\patch\patch_S2.mhd
+E:\from_kubo\vector_rotation\x64\Release\input\patch\patch_S3.mhd
+E:\from_kubo\vector_rotation\x64\Release\output\S1\output_3_6_5.mhd
+E:\from_kubo\vector_rotation\x64\Release\output\S2\output_5_7_4.mhd
+E:\from_kubo\vector_rotation\x64\Release\output\S3\output_3_4_4.mhd
