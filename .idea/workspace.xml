@@ -3,22 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3c2a7-7399-44bc-96f0-90d7733ffa8d" name="Default" comment="">
       <change afterPath="$USER_HOME$/.PyCharmCE2019.1/system/workspace/3d-glow.838d0078.xml" afterDir="false" />
+      <change afterPath="$USER_HOME$/.PyCharmCE2019.1/system/workspace/3d_image_utilities.1ac3ec9.xml" afterDir="false" />
       <change afterPath="$USER_HOME$/.PyCharmCE2019.1/system/workspace/glow.c1a1ebe.xml" afterDir="false" />
       <change afterPath="$USER_HOME$/.PyCharmCE2019.1/system/workspace/pca.c6959d7d.xml" afterDir="false" />
       <change afterPath="$USER_HOME$/.PyCharmCE2019.1/system/workspace/pca.d24c2c5e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/display.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/making_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_patch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../beta_VAE/gen.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../beta_VAE/latent.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../beta_VAE/res_gen.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../beta_VAE/res_gen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../beta_VAE/res_spe.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../beta_VAE/res_spe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../beta_VAE/spe.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vae/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$USER_HOME$/.PyCharmCE2019.1/system/workspace/u-net.760ef0f4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalization.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/3D/display.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/3D/display.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/3D/making_patch.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/3D/making_patch.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/3D/masking.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/3D/masking.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/3D/utils.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/3D/utils.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/3D/visualize.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/3D/visualize.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/beta_VAE/gen.bat" beforeDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/beta_VAE/latent.bat" beforeDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/beta_VAE/res_gen.bat" beforeDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/beta_VAE/res_gen.py" beforeDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/beta_VAE/res_spe.bat" beforeDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/beta_VAE/res_spe.py" beforeDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/beta_VAE/spe.bat" beforeDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/vae/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$USER_HOME$/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/3D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3D.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/making_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_patch.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/display.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="378">
               <caret line="21" column="20" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="20" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
@@ -43,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visualize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="270">
               <caret line="17" column="109" selection-start-line="17" selection-start-column="109" selection-end-line="17" selection-end-column="109" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
@@ -55,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/matplotlib/figure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="55971">
               <caret line="2107" column="8" selection-start-line="2107" selection-start-column="8" selection-end-line="2107" selection-end-column="8" />
             </state>
           </provider>
@@ -64,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L_fitting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
+            <state relative-caret-position="3321">
               <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
             </state>
           </provider>
@@ -73,13 +82,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/matplotlib/colorbar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="27999">
               <caret line="1056" selection-start-line="1056" selection-end-line="1056" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
@@ -94,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/matplotlib/cm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="4374">
               <caret line="171" column="6" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
             </state>
           </provider>
@@ -112,11 +121,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/making_patch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="2241">
+              <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/normalization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="7" selection-start-line="9" selection-end-line="10" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -204,8 +225,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataIO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="81">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -273,10 +294,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>5</find>
-      <find>4</find>
-      <find>endl</find>
-      <find>startm</find>
       <find>starts</find>
       <find>startl</find>
       <find>z1</find>
@@ -303,10 +320,12 @@
       <find>zraw</find>
       <find>dx</find>
       <find>\</find>
+      <find>data_set</find>
+      <find>path_r</find>
+      <find>case_name</find>
+      <find>data</find>
     </findStrings>
     <replaceStrings>
-      <replace>y2</replace>
-      <replace>y3</replace>
       <replace>y8</replace>
       <replace>y9</replace>
       <replace>y4</replace>
@@ -335,10 +354,12 @@
       <replace>dz</replace>
       <replace>dy</replace>
       <replace>/</replace>
+      <replace>outdir</replace>
+      <replace>img</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -366,18 +387,20 @@
         <option value="$PROJECT_DIR$/free.py" />
         <option value="$PROJECT_DIR$/histogram.ipynb" />
         <option value="$PROJECT_DIR$/L_fitting.py" />
-        <option value="$PROJECT_DIR$/making_patch.py" />
         <option value="$PROJECT_DIR$/mp2.py" />
         <option value="$PROJECT_DIR$/display.py" />
         <option value="$PROJECT_DIR$/visualize.py" />
         <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/normalization.py" />
+        <option value="$PROJECT_DIR$/making_patch.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="1294" />
-    <option name="height" value="1407" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1456" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -386,65 +409,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="3D" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3D" type="462c0819:PsiDirectoryNode" />
+              <item name="3D_image_utilities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3D_image_utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="3D" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3D_image_utilities" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
-              <item name="3D" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3D_image_utilities" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (py35) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; Python 3.7 (py37) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
-              <item name="3D" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3D_image_utilities" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (py35) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; Python 3.7 (py37) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-24255143" type="70582d5e:PySkeletonsNode" />
             </path>
             <path>
-              <item name="3D" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3D_image_utilities" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (py35) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; Python 3.7 (py37) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-24255143" type="70582d5e:PySkeletonsNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="3D" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3D_image_utilities" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (py35) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="matplotlib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3D" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (py35) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3D" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (py35) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="matplotlib" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; Python 3.7 (py37) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-24255143" type="70582d5e:PySkeletonsNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/git/3D-Glow" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TFRecord_example" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -469,7 +480,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.visualize">
+  <component name="RunManager" selected="Python.making_patch">
     <configuration name="3D" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -507,48 +518,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="free" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="3D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/free.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hakohige" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="3D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hakohige.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="hypothesis_testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -562,6 +531,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hypothesis_testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="making_patch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="3D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/making_patch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="normalization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="3D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/normalization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -593,18 +604,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.display" />
-      <item itemvalue="Python.free" />
-      <item itemvalue="Python.hakohige" />
       <item itemvalue="Python.hypothesis_testing" />
       <item itemvalue="Python.visualize" />
+      <item itemvalue="Python.making_patch" />
+      <item itemvalue="Python.normalization" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.making_patch" />
+        <item itemvalue="Python.normalization" />
         <item itemvalue="Python.visualize" />
         <item itemvalue="Python.display" />
         <item itemvalue="Python.hypothesis_testing" />
-        <item itemvalue="Python.free" />
-        <item itemvalue="Python.hakohige" />
       </list>
     </recent_temporary>
   </component>
@@ -658,21 +669,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
+    <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0790938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07074722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.85294116" visible="true" weight="0.20109119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8525437" visible="true" weight="0.3235072" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49940476" weight="0.39956093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49880764" weight="0.32969603" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.14705883" side_tool="true" visible="true" weight="0.20109119" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.14745627" side_tool="true" visible="true" weight="0.3235072" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49940476" weight="0.32930845" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -709,14 +720,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:////tera/user/b4/2018/yuri/from_wakabayashi/make_human_mask/make_human_mask.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-313451744/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="2349" column="4" selection-start-line="2349" selection-start-column="4" selection-end-line="2349" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-313451744/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -830,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/argparse.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -878,12 +874,60 @@
     <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/seaborn/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/making_patch.py">
+    <entry file="file://$PROJECT_DIR$/display.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="378">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="20" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="109" selection-start-line="17" selection-start-column="109" selection-end-line="17" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55971">
+          <caret line="2107" column="8" selection-start-line="2107" selection-start-column="8" selection-end-line="2107" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L_fitting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3321">
+          <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/matplotlib/colorbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27999">
+          <caret line="1056" selection-start-line="1056" selection-end-line="1056" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/matplotlib/cm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4374">
+          <caret line="171" column="6" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/free.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -951,13 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataIO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -999,68 +1036,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/free.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/matplotlib/figure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="2107" column="8" selection-start-line="2107" selection-start-column="8" selection-end-line="2107" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/matplotlib/cm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="171" column="6" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/matplotlib/colorbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="1056" selection-start-line="1056" selection-end-line="1056" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/display.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L_fitting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="17" column="109" selection-start-line="17" selection-start-column="109" selection-end-line="17" selection-end-column="109" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="103" column="69" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataIO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/py35/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-24255143/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="10714" column="8" selection-start-line="10714" selection-start-column="8" selection-end-line="10714" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/normalization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="7" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/making_patch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
