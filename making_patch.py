@@ -6,17 +6,18 @@ import random
 
 def main():
     parser = argparse.ArgumentParser(description='py, case_name, z_size, xy_resolution')
-    parser.add_argument('--patch_size', '-i1', type=int, default=9, help='patch size')
+    parser.add_argument('--patch_side', '-i1', type=int, default=16, help='patch size')
     parser.add_argument('--th', '-i2', type=int, default=150, help='threshold of hessian')
     parser.add_argument('--is_shift', '-i3', type=bool, default=False, help='shift')
     args = parser.parse_args()
 
-    patch_side = args.patch_size
-    w = int(patch_side/2 + 0.5)
+    patch_side = args.patch_side
+    b = int(patch_side/2)
+    e = int(patch_side/2 + 0.5)
 
     # check folder
-    path_w = "E:/git/TFRecord_example/input/CT/patch/"
-    # path_w = "E:/git/TFRecord_example/input/CT/size{}th{}/".format(args.patch_size, args.th)
+    path_w = "E:/git/TFRecord_example/input/CT/patch/size{}/".format(patch_side)
+    # path_w = "E:/git/TFRecord_example/input/CT/size{}th{}/".format(args.patch_side, args.th)
     if not (os.path.exists(path_w)):
         os.makedirs(path_w)
 
@@ -70,16 +71,16 @@ def main():
                             dz = int(dz - 0.5)
 
                     # patch = img[z-4+dz:z+5+dz, y-4+dy:y+5+dy, x-4+dx:x+5+dx]
-                    patch = img[z-w+1+dz:z+w+dz, y-w+1+dy:y+w+dy, x-w+1+dx:x+w+dx]
+                    patch = img[z-b+dz:z+e+dz, y-b+dy:y+e+dy, x-b+dx:x+e+dx]
                     patch = patch.reshape([patch_side, patch_side, patch_side])
                     if np.all(patch!=0):
                         eudt_image = sitk.GetImageFromArray(patch)
                         eudt_image.SetSpacing(sitkimg.GetSpacing())
                         eudt_image.SetOrigin(sitkimg.GetOrigin())
                         # sitk.WriteImage(eudt_image, os.path.join(path_w , "patch_{}_{}_{}.mhd".format(x+dx, y+dy, z+dz)))
-                        sitk.WriteImage(eudt_image, os.path.join(path_w, "patch{}.mhd".format(count)))
+                        sitk.WriteImage(eudt_image, os.path.join(path_w, "ori{}.mhd".format(count)))
                         # file.write(os.path.join(path_w ,"patch{}.mhd".format(x+dx, y+dy, z+dz) + "\n"))
-                        file.write(os.path.join(path_w ,"patch{}.mhd".format(count) + "\n"))
+                        file.write(os.path.join(path_w ,"ori{}.mhd".format(count) + "\n"))
                         count += 1
                         print(count)
     file.close()
