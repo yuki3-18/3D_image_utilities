@@ -6,7 +6,7 @@ import random
 
 def main():
     parser = argparse.ArgumentParser(description='py, case_name, z_size, xy_resolution')
-    parser.add_argument('--patch_side', '-i1', type=int, default=16, help='patch size')
+    parser.add_argument('--patch_side', '-i1', type=int, default=9, help='patch size')
     parser.add_argument('--th', '-i2', type=int, default=150, help='threshold of hessian')
     parser.add_argument('--is_shift', '-i3', type=bool, default=False, help='shift')
     args = parser.parse_args()
@@ -78,11 +78,11 @@ def main():
                         eudt_image.SetSpacing(sitkimg.GetSpacing())
                         eudt_image.SetOrigin(sitkimg.GetOrigin())
                         # sitk.WriteImage(eudt_image, os.path.join(path_w , "patch_{}_{}_{}.mhd".format(x+dx, y+dy, z+dz)))
-                        sitk.WriteImage(eudt_image, os.path.join(path_w, "ori{}.mhd".format(count)))
+                        sitk.WriteImage(eudt_image, os.path.join(path_w, "{}.mhd".format(str(count).zfill(4))))
                         # file.write(os.path.join(path_w ,"patch{}.mhd".format(x+dx, y+dy, z+dz) + "\n"))
-                        file.write(os.path.join(path_w ,"ori{}.mhd".format(count) + "\n"))
+                        file.write(os.path.join(path_w ,"{}.mhd".format(str(count).zfill(4)) + "\n"))
                         count += 1
-                        print(count)
+                        print(str(count).zfill(4))
     file.close()
 
 

@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b3c2a7-7399-44bc-96f0-90d7733ffa8d" name="Default" comment="Remove some dead code and improve">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$USER_HOME$/.PyCharmCE2019.1/system/workspace/3d_image_utilities.1ac3ec9.xml" beforeDir="false" afterPath="$USER_HOME$/.PyCharmCE2019.1/system/workspace/3d_image_utilities.1ac3ec9.xml" afterDir="false" />
+    <list default="true" id="65b3c2a7-7399-44bc-96f0-90d7733ffa8d" name="Default" comment="Bug fixed">
+      <change afterPath="$PROJECT_DIR$/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tfboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/3D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3D.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/display.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypothesis_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/hypothesis_testing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/making_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_patch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,81 +25,22 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>starts</find>
-      <find>startl</find>
-      <find>z1</find>
-      <find>z2</find>
-      <find>y1</find>
-      <find>y2</find>
-      <find>x1</find>
-      <find>x2</find>
-      <find>x3</find>
-      <find>offse</find>
-      <find>curve_fit</find>
-      <find>se</find>
-      <find>r</find>
-      <find>p</find>
-      <find>y</find>
-      <find>z</find>
-      <find>x</find>
-      <find>PCA</find>
-      <find>a</find>
-      <find>DICE</find>
-      <find>- 1</find>
-      <find>10</find>
-      <find>8</find>
-      <find>zraw</find>
-      <find>dx</find>
-      <find>\</find>
-      <find>data_set</find>
-      <find>path_r</find>
-      <find>data</find>
-      <find>case_name</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>y8</replace>
-      <replace>y9</replace>
-      <replace>y4</replace>
-      <replace>y5</replace>
-      <replace>y6</replace>
-      <replace>x2</replace>
-      <replace>x3</replace>
-      <replace>x8</replace>
-      <replace>x9</replace>
-      <replace>x4</replace>
-      <replace>x5</replace>
-      <replace>x6</replace>
-      <replace>x7</replace>
-      <replace>p</replace>
-      <replace>r</replace>
-      <replace>args.y</replace>
-      <replace>args.z</replace>
-      <replace>args.x</replace>
-      <replace>pca</replace>
-      <replace>df</replace>
-      <replace>2.0</replace>
-      <replace>label</replace>
-      <replace>num_data</replace>
-      <replace>size</replace>
-      <replace>mhd</replace>
-      <replace>dz</replace>
-      <replace>dy</replace>
-      <replace>/</replace>
-      <replace>outdir</replace>
-      <replace>img</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RvTekJHxv7y0fzaWDulktNDDOR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TFRecord_example" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -108,19 +52,7 @@
       <recent name="C:\Users\saeki\3D" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.making_patch">
+  <component name="RunManager" selected="Python.display">
     <configuration name="3D" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +69,49 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="display" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="3D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="decompress" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="3D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decompress.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="display" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,6 +124,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/display.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="3D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,85 +174,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="making_patch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="3D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/making_patch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="normalization" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="3D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/normalization.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="visualize" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="3D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.dataset" />
+      <item itemvalue="Python.decompress" />
       <item itemvalue="Python.display" />
+      <item itemvalue="Python.extract" />
       <item itemvalue="Python.hypothesis_testing" />
-      <item itemvalue="Python.making_patch" />
-      <item itemvalue="Python.normalization" />
-      <item itemvalue="Python.visualize" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.making_patch" />
-        <item itemvalue="Python.normalization" />
-        <item itemvalue="Python.visualize" />
         <item itemvalue="Python.display" />
+        <item itemvalue="Python.extract" />
+        <item itemvalue="Python.decompress" />
         <item itemvalue="Python.hypothesis_testing" />
+        <item itemvalue="Python.dataset" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -312,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570024374591</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Bug fixed">
+      <created>1571607181154</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571607181154</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,6 +285,29 @@
     <MESSAGE value="debug display.py" />
     <MESSAGE value="commit" />
     <MESSAGE value="Remove some dead code and improve" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove some dead code and improve" />
+    <MESSAGE value="Bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2139" height="107" key="GridCell.Tab.0.bottom" timestamp="1580393147237">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2139" height="107" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1580393147237" />
+    <state width="2139" height="107" key="GridCell.Tab.0.center" timestamp="1580393147237">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2139" height="107" key="GridCell.Tab.0.center/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1580393147237" />
+    <state width="2139" height="107" key="GridCell.Tab.0.left" timestamp="1580393147237">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2139" height="107" key="GridCell.Tab.0.left/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1580393147237" />
+    <state width="2139" height="107" key="GridCell.Tab.0.right" timestamp="1580393147237">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2139" height="107" key="GridCell.Tab.0.right/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1580393147237" />
+    <state x="788" y="363" key="SettingsEditor" timestamp="1581160610607">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="788" y="363" key="SettingsEditor/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1581160610607" />
   </component>
 </project>

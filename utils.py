@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import matplotlib.colors as colors
 from matplotlib.cm import ScalarMappable
+from tqdm import trange
 
 from scipy import ndimage
 
@@ -306,13 +307,13 @@ def display_center_slices(case, size, num_data):
     # case: image data, num_data: number of data, size: length of a side
     min = np.min(case)
     max = np.max(case)
-    patch_center = int(size)
+    patch_center = size//2
     x = num_data
     # axial
     fig, axes = plt.subplots(ncols=x, nrows=x, figsize=(x, x))
     for j in range(x):
         for i in range(x):
-            axes[j, i].imshow(case[i + x*j, :, :, 4].reshape(size, size), cmap=cm.Greys_r, vmin=min, vmax=max, interpolation='none')
+            axes[j, i].imshow(case[i + x*j, :, :, patch_center].reshape(size, size), cmap=cm.Greys_r, vmin=min, vmax=max, interpolation='none')
             axes[j, i].get_xaxis().set_visible(False)
             axes[j, i].get_yaxis().set_visible(False)
     # plt.savefig(outdir + "/.png")
@@ -327,3 +328,11 @@ def L1norm(im1, im2):
         raise ValueError("Shape mismatch: im1 and im2 must have the same shape.")
 
     return np.double(np.mean(abs(im1 - im2)))
+
+def get_dataset(input, patch_side, num_of_test):
+    print('load data')
+    list = io.load_list(input)
+    data_set = np.zeros((num_of_test, patch_side, patch_side, patch_side))
+    for i in trange(num_of_test):
+        data_set[i, :] = np.reshape(io.read_mhd_and_raw(list[i]), [patch_side, patch_side, patch_side])
+    return data_set
