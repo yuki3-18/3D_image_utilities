@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3c2a7-7399-44bc-96f0-90d7733ffa8d" name="Default" comment="Bug fixed">
-      <change afterPath="$PROJECT_DIR$/tfboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/display_img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/3D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3D.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L_fitting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Preprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S_fitting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cropping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/display_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_shift_img.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaussian.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hakohige.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepro.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/実行.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/実行.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +48,12 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/extract.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../artificial" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -45,7 +66,7 @@
       <recent name="C:\Users\saeki\3D" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.display">
+  <component name="RunManager" selected="Python.display_dataset">
     <configuration name="3D" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,7 +83,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="display_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +95,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset.py" />
+      <option name="SCRIPT_NAME" value="E:\git\3D_image_utilities\display_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decompress" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="display_img" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,28 +116,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decompress.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="display" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="3D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/display.py" />
+      <option name="SCRIPT_NAME" value="E:\git\3D_image_utilities\display_img.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hypothesis_testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="masking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,7 +158,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hypothesis_testing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/masking.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="profile_fitting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profile_fitting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,33 +189,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dataset" />
-      <item itemvalue="Python.decompress" />
-      <item itemvalue="Python.display" />
       <item itemvalue="Python.extract" />
-      <item itemvalue="Python.hypothesis_testing" />
+      <item itemvalue="Python.profile_fitting" />
+      <item itemvalue="Python.masking" />
+      <item itemvalue="Python.display_dataset" />
+      <item itemvalue="Python.display_img" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.display" />
+        <item itemvalue="Python.display_dataset" />
+        <item itemvalue="Python.display_img" />
         <item itemvalue="Python.extract" />
-        <item itemvalue="Python.decompress" />
-        <item itemvalue="Python.hypothesis_testing" />
-        <item itemvalue="Python.dataset" />
+        <item itemvalue="Python.masking" />
+        <item itemvalue="Python.profile_fitting" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -263,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581474768100</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated">
+      <created>1589663823070</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589663823070</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,13 +287,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upgrade" />
@@ -287,36 +302,62 @@
     <MESSAGE value="Remove some dead code and improve" />
     <MESSAGE value="Bug fixed" />
     <MESSAGE value="Improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="967" y="310" key="CommitChangelistDialog2" timestamp="1581474766146">
+    <state x="960" y="456" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587882839493">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="967" y="310" key="CommitChangelistDialog2/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1581474766146" />
-    <state width="2139" height="107" key="GridCell.Tab.0.bottom" timestamp="1580393147237">
+    <state x="960" y="456" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1587882839493" />
+    <state x="967" y="310" key="CommitChangelistDialog2" timestamp="1589663822241">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2139" height="107" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1580393147237" />
-    <state width="2139" height="107" key="GridCell.Tab.0.center" timestamp="1580393147237">
+    <state x="967" y="310" key="CommitChangelistDialog2/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1589663822241" />
+    <state x="1060" y="475" key="FileChooserDialogImpl" timestamp="1586552197701">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2139" height="107" key="GridCell.Tab.0.center/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1580393147237" />
-    <state width="2139" height="107" key="GridCell.Tab.0.left" timestamp="1580393147237">
+    <state x="1060" y="475" key="FileChooserDialogImpl/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1586552197701" />
+    <state width="2517" height="70" key="GridCell.Tab.0.bottom" timestamp="1590101966583">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2139" height="107" key="GridCell.Tab.0.left/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1580393147237" />
-    <state width="2139" height="107" key="GridCell.Tab.0.right" timestamp="1580393147237">
+    <state width="1557" height="70" key="GridCell.Tab.0.bottom/0.0.1600.900/1600.116.1680.1050@0.0.1600.900" timestamp="1589772681642" />
+    <state width="1321" height="361" key="GridCell.Tab.0.bottom/0.0.1600.900/1600.116.1680.1050@1600.116.1680.1050" timestamp="1589359943806" />
+    <state width="1877" height="70" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.116.1680.1050@0.0.1920.1080" timestamp="1589949185927" />
+    <state width="2517" height="70" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590101966583" />
+    <state width="2517" height="70" key="GridCell.Tab.0.center" timestamp="1590101966583">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2139" height="107" key="GridCell.Tab.0.right/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1580393147237" />
+    <state width="1557" height="70" key="GridCell.Tab.0.center/0.0.1600.900/1600.116.1680.1050@0.0.1600.900" timestamp="1589772681642" />
+    <state width="1321" height="361" key="GridCell.Tab.0.center/0.0.1600.900/1600.116.1680.1050@1600.116.1680.1050" timestamp="1589359943806" />
+    <state width="1877" height="70" key="GridCell.Tab.0.center/0.0.1920.1080/1920.116.1680.1050@0.0.1920.1080" timestamp="1589949185926" />
+    <state width="2517" height="70" key="GridCell.Tab.0.center/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590101966583" />
+    <state width="2517" height="70" key="GridCell.Tab.0.left" timestamp="1590101966583">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1557" height="70" key="GridCell.Tab.0.left/0.0.1600.900/1600.116.1680.1050@0.0.1600.900" timestamp="1589772681642" />
+    <state width="1321" height="361" key="GridCell.Tab.0.left/0.0.1600.900/1600.116.1680.1050@1600.116.1680.1050" timestamp="1589359943806" />
+    <state width="1877" height="70" key="GridCell.Tab.0.left/0.0.1920.1080/1920.116.1680.1050@0.0.1920.1080" timestamp="1589949185926" />
+    <state width="2517" height="70" key="GridCell.Tab.0.left/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590101966583" />
+    <state width="2517" height="70" key="GridCell.Tab.0.right" timestamp="1590101966583">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1557" height="70" key="GridCell.Tab.0.right/0.0.1600.900/1600.116.1680.1050@0.0.1600.900" timestamp="1589772681642" />
+    <state width="1321" height="361" key="GridCell.Tab.0.right/0.0.1600.900/1600.116.1680.1050@1600.116.1680.1050" timestamp="1589359943806" />
+    <state width="1877" height="70" key="GridCell.Tab.0.right/0.0.1920.1080/1920.116.1680.1050@0.0.1920.1080" timestamp="1589949185927" />
+    <state width="2517" height="70" key="GridCell.Tab.0.right/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590101966583" />
     <state x="788" y="363" key="SettingsEditor" timestamp="1581160610607">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="788" y="363" key="SettingsEditor/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1581160610607" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1581474810678">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1589663838851">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1581474810678" />
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1589663838851" />
+    <state x="831" y="313" width="896" height="904" key="search.everywhere.popup" timestamp="1589132220602">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.116.1680.1050@0.0.1920.1080" timestamp="1589127019764" />
+    <state x="831" y="313" width="896" height="904" key="search.everywhere.popup/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1589132220602" />
   </component>
 </project>

@@ -29,6 +29,12 @@ def masking(img, x_size, y_size, z_size, mask, mask_value1, mask_value2):
 
     return  masking_img
 
+def cropping(img, xs, xe, ys, ye, zs, ze):
+
+    cropped_img = img[zs:ze+1, ys:ye+1, xs:xe+1]
+
+    return cropped_img
+
 def cropping9(img, x_size, y_size, z_size, x, y, z):
     img = np.reshape(img, [z_size, y_size, x_size])
     cropped_img = img[z - 4:z + 5, y - 4:y + 5, x - 4:x + 5]
@@ -40,7 +46,7 @@ def cropping320(img, x_size, y_size, z_size, x, y, z):
     img = np.reshape(img, [z_size, y_size, x_size])
     cropped_img = img[z - 160:z + 160, y - 160:y + 160, x - 160:x + 160]
     print(cropped_img.shape)
-    cropped_img = cropped_img.reshape([400, 400, 400])
+    cropped_img = cropped_img.reshape([320, 320, 320])
     print(cropped_img.shape)
 
     return cropped_img
@@ -96,51 +102,54 @@ def making_patch(num, img_path, mask_path, patch_side, threshold):
 
     return 0
 
-def display_image(img, side, outdir):
+def display_image(img, side):
     img = np.reshape(img, [side, side, side])
-    max = np.max(img)
-    min = np.min(img)
-    fig, axes = plt.subplots(ncols=9, nrows=1, figsize=(10, 10))
+    # max = np.max(img)
+    # min = np.min(img)
+    max = -200
+    min = -1300
+
+    fig, axes = plt.subplots(ncols=side, nrows=1, figsize=(side-2, 2))
     for i in range(side):
-        axes[i].imshow(img[i].reshape(side, side), vmin=min, vmax=max, interpolation='none')
+        axes[i].imshow(img[i].reshape(side, side), vmin=min, vmax=max, interpolation='none', cmap=cm.Greys_r)
         axes[i].set_title('z = %d' % i)
         axes[i].get_xaxis().set_visible(False)
         axes[i].get_yaxis().set_visible(False)
 
     # カラーバーの設定
-    axpos = axes[1].get_position()
-    cbar_ax = fig.add_axes([0.87, axpos.y0, 0.02, axpos.height])
-    # norm = colors.Normalize(vmin=df['price'].min(), vmax=df['price'].max())
-    mappable = ScalarMappable()
-    mappable._A = []
-    fig.colorbar(mappable, cax=cbar_ax)
-    # 余白の調整
-    plt.subplots_adjust(right=0.85)
-    plt.subplots_adjust(wspace=0.1)
+    # axpos = axes[1].get_position()
+    # cbar_ax = fig.add_axes([0.87, axpos.y0, 0.02, axpos.height])
+    # # norm = colors.Normalize(vmin=df['price'].min(), vmax=df['price'].max())
+    # mappable = ScalarMappable()
+    # mappable._A = []
+    # fig.colorbar(mappable, cax=cbar_ax)
+    # # 余白の調整
+    # plt.subplots_adjust(right=0.85)
+    # plt.subplots_adjust(wspace=0.1)
     # plt.savefig(outdir + "/axial_generate.png")
     plt.show()
 
-    # fig, axes = plt.subplots(ncols=9, nrows=1, figsize=(6, 2))
-    # for i in range(side):
-    #     axes[i].imshow(img[:, i].reshape(side, side))
-    #     axes[i].set_title('y = %d' % i)
-    #     axes[i].get_xaxis().set_visible(False)
-    #     axes[i].get_yaxis().set_visible(False)
+    fig, axes = plt.subplots(ncols=side, nrows=1, figsize=(side-2, 2))
+    for i in range(side):
+        axes[i].imshow(img[:, i].reshape(side, side), vmin=min, vmax=max, interpolation='none', cmap=cm.Greys_r)
+        axes[i].set_title('y = %d' % i)
+        axes[i].get_xaxis().set_visible(False)
+        axes[i].get_yaxis().set_visible(False)
     #
     # fig.colorbar(img)
     # # plt.savefig(outdir + "/coronal_generate.png")
-    # plt.show()
+    plt.show()
     #
-    # fig,axes = plt.subplots(ncols=9, nrows=1, figsize=(6, 2))
-    # for i in range(side):
-    #     axes[i].imshow(img[:, :, i].reshape(side, side))
-    #     axes[i].set_title('x = %d' % i)
-    #     axes[i].get_xaxis().set_visible(False)
-    #     axes[i].get_yaxis().set_visible(False)
-    #
+    fig,axes = plt.subplots(ncols=side, nrows=1, figsize=(side-2, 2))
+    for i in range(side):
+        axes[i].imshow(img[:, :, i].reshape(side, side), vmin=min, vmax=max, interpolation='none', cmap=cm.Greys_r)
+        axes[i].set_title('x = %d' % i)
+        axes[i].get_xaxis().set_visible(False)
+        axes[i].get_yaxis().set_visible(False)
+
     # fig.colorbar(img)
     # # plt.savefig(outdir + "/sagital_generate.png")
-    # plt.show()
+    plt.show()
 
 
 def display_image2(img1, img2, side, outdir):
@@ -251,8 +260,10 @@ def display_image3(img1, img2, img3, side, outdir='./output'):
 
 def display_slices(case, size, num_data):
     # case: image data, num_data: number of data, size: length of a side
-    min = np.min(case)
-    max = np.max(case)
+    # min = np.min(case)
+    # max = np.max(case)
+    max = -200
+    min = -1300
     # sagital
     fig, axes = plt.subplots(ncols=size, nrows=num_data, figsize=(size - 2, num_data), dpi=150)
     for i in range(size):
@@ -305,8 +316,10 @@ def visualize_slices(X, Xe, outdir):
 
 def display_center_slices(case, size, num_data):
     # case: image data, num_data: number of data, size: length of a side
-    min = np.min(case)
-    max = np.max(case)
+    # min = np.min(case)
+    # max = np.max(case)
+    max = -200
+    min = -1300
     patch_center = size//2
     x = num_data
     # axial
@@ -328,6 +341,17 @@ def L1norm(im1, im2):
         raise ValueError("Shape mismatch: im1 and im2 must have the same shape.")
 
     return np.double(np.mean(abs(im1 - im2)))
+
+# calculate MSE
+def MSE(im1, im2):
+    im1 = np.asarray(im1)
+    im2 = np.asarray(im2)
+
+    if im1.shape != im2.shape:
+        raise ValueError("Shape mismatch: im1 and im2 must have the same shape.")
+
+    return np.double(np.mean((im1 - im2)**2))
+
 
 def get_dataset(input, patch_side, num_of_test):
     print('load data')
