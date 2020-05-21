@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b3c2a7-7399-44bc-96f0-90d7733ffa8d" name="Default" comment="Bug fixed">
-      <change afterPath="$PROJECT_DIR$/display_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/3D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3D.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L_fitting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Preprocessing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/S_fitting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cropping.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/display_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_shift_img.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaussian.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hakohige.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepro.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/実行.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/実行.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="65b3c2a7-7399-44bc-96f0-90d7733ffa8d" name="Default" comment="Clear" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -279,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589663823070</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Clear">
+      <created>1590104292421</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590104292421</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,17 +286,18 @@
     <MESSAGE value="Bug fixed" />
     <MESSAGE value="Improved" />
     <MESSAGE value="Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+    <MESSAGE value="Clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clear" />
   </component>
   <component name="WindowStateProjectService">
     <state x="960" y="456" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587882839493">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="960" y="456" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1587882839493" />
-    <state x="967" y="310" key="CommitChangelistDialog2" timestamp="1589663822241">
+    <state x="967" y="310" key="CommitChangelistDialog2" timestamp="1590104291209">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="967" y="310" key="CommitChangelistDialog2/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1589663822241" />
+    <state x="967" y="310" key="CommitChangelistDialog2/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590104291209" />
     <state x="1060" y="475" key="FileChooserDialogImpl" timestamp="1586552197701">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -350,10 +334,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="788" y="363" key="SettingsEditor/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1581160610607" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1589663838851">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1590104358615">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1589663838851" />
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590104358615" />
     <state x="831" y="313" width="896" height="904" key="search.everywhere.popup" timestamp="1589132220602">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
