@@ -22,7 +22,7 @@ def main():
 
     # load data
     print('load data')
-    sitkimg = sitk.ReadImage("E:/data/data1.mhd")
+    sitkimg = sitk.ReadImage("E:/data/Ai/Lung/Fukui_Ai-CT_Sept2015_01-2.mhd")
     img = sitk.GetArrayFromImage(sitkimg)
     size = sitkimg.GetSize()
     x_size = size[0]
@@ -30,19 +30,19 @@ def main():
     z_size = size[2]
     img = np.reshape(img, [z_size, y_size, x_size])
 
-    c1 = [199, 186, 23]
+    c1 = [225, 120, 60]
     c2 = [97, 219, 188]
     c3 = [78, 53, 193]
-    c4 = [200, 230, 213]
-    c5 = [56, 146, 66]
-    c6 = [65, 179, 43]
-    c7 = [85, 45, 193]
+    c4 = [73, 43, 191]
+    c5 = [80, 47, 203]
+    c6 = [98, 184, 39]
+    c7 = [98, 200, 33]
     c8 = [40, 134, 68]
     c9 = [66, 150, 44]
     c10 = [78, 53, 193]
     # list = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]
-    # list = [c5, c6, c7]
-    list = [c8, c9, c10]
+    list = [c1]
+    # list = [c8, c9, c10]
 
     # file = open(path_w + "filename.txt", mode='w')
 

@@ -77,5 +77,5 @@ def scipy_fit(x_in, y_in):
     #params = [A,mu,sigma]なので上の二つと順番が違う
     return params
 
-def gauss(x, A, mu, sigma, o):
-    return A * np.exp(-(x - mu) ** 2 / (2.0 * sigma ** 2)) + o
+def gauss(x, A, mu, sigma, C):
+    return A * np.exp(-(x - mu) ** 2 / (2.0 * sigma ** 2)) + C

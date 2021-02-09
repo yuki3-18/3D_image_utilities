@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b3c2a7-7399-44bc-96f0-90d7733ffa8d" name="Default" comment="Clear" />
+    <list default="true" id="65b3c2a7-7399-44bc-96f0-90d7733ffa8d" name="Default" comment="Clear">
+      <change afterPath="$PROJECT_DIR$/betti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boxplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thresholding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/3D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3D.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/display_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/display_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/display_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/display_img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitting_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitting_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypothesis_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/hypothesis_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/making_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/making_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_patch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/masking.py" beforeDir="false" afterPath="$PROJECT_DIR$/masking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_fitting.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile_fitting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +35,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1RvTekJHxv7y0fzaWDulktNDDOR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,17 +54,18 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/extract.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../artificial" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\3D_image_utilities" />
+      <recent name="C:\Users\saeki\PycharmProjects\3D" />
+      <recent name="C:\Users\saeki\3D" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\saeki\PycharmProjects\3D\image" />
       <recent name="C:\Users\saeki\PycharmProjects\3D" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\saeki\PycharmProjects\3D" />
-      <recent name="C:\Users\saeki\3D" />
     </key>
   </component>
   <component name="RunManager" selected="Python.display_dataset">
@@ -59,6 +85,48 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
+    <configuration name="betti" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/betti.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="boxplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boxplot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="display_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\git\3D_image_utilities\display_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/display_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="display_img" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hypothesis_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +160,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\git\3D_image_utilities\display_img.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hypothesis_testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="standardization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,49 +181,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="masking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="3D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/masking.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="profile_fitting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="3D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profile_fitting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standardization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,22 +191,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.extract" />
-      <item itemvalue="Python.profile_fitting" />
-      <item itemvalue="Python.masking" />
+      <item itemvalue="Python.standardization" />
       <item itemvalue="Python.display_dataset" />
-      <item itemvalue="Python.display_img" />
+      <item itemvalue="Python.betti" />
+      <item itemvalue="Python.hypothesis_testing" />
+      <item itemvalue="Python.boxplot" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.display_dataset" />
-        <item itemvalue="Python.display_img" />
-        <item itemvalue="Python.extract" />
-        <item itemvalue="Python.masking" />
-        <item itemvalue="Python.profile_fitting" />
+        <item itemvalue="Python.boxplot" />
+        <item itemvalue="Python.hypothesis_testing" />
+        <item itemvalue="Python.standardization" />
+        <item itemvalue="Python.betti" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -262,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590104292421</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Clear">
+      <created>1590104474912</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590104474912</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,60 +322,5 @@
     <MESSAGE value="Updated" />
     <MESSAGE value="Clear" />
     <option name="LAST_COMMIT_MESSAGE" value="Clear" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="960" y="456" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587882839493">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="960" y="456" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1587882839493" />
-    <state x="967" y="310" key="CommitChangelistDialog2" timestamp="1590104291209">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="967" y="310" key="CommitChangelistDialog2/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590104291209" />
-    <state x="1060" y="475" key="FileChooserDialogImpl" timestamp="1586552197701">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="1060" y="475" key="FileChooserDialogImpl/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1586552197701" />
-    <state width="2517" height="70" key="GridCell.Tab.0.bottom" timestamp="1590101966583">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state width="1557" height="70" key="GridCell.Tab.0.bottom/0.0.1600.900/1600.116.1680.1050@0.0.1600.900" timestamp="1589772681642" />
-    <state width="1321" height="361" key="GridCell.Tab.0.bottom/0.0.1600.900/1600.116.1680.1050@1600.116.1680.1050" timestamp="1589359943806" />
-    <state width="1877" height="70" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.116.1680.1050@0.0.1920.1080" timestamp="1589949185927" />
-    <state width="2517" height="70" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590101966583" />
-    <state width="2517" height="70" key="GridCell.Tab.0.center" timestamp="1590101966583">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state width="1557" height="70" key="GridCell.Tab.0.center/0.0.1600.900/1600.116.1680.1050@0.0.1600.900" timestamp="1589772681642" />
-    <state width="1321" height="361" key="GridCell.Tab.0.center/0.0.1600.900/1600.116.1680.1050@1600.116.1680.1050" timestamp="1589359943806" />
-    <state width="1877" height="70" key="GridCell.Tab.0.center/0.0.1920.1080/1920.116.1680.1050@0.0.1920.1080" timestamp="1589949185926" />
-    <state width="2517" height="70" key="GridCell.Tab.0.center/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590101966583" />
-    <state width="2517" height="70" key="GridCell.Tab.0.left" timestamp="1590101966583">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state width="1557" height="70" key="GridCell.Tab.0.left/0.0.1600.900/1600.116.1680.1050@0.0.1600.900" timestamp="1589772681642" />
-    <state width="1321" height="361" key="GridCell.Tab.0.left/0.0.1600.900/1600.116.1680.1050@1600.116.1680.1050" timestamp="1589359943806" />
-    <state width="1877" height="70" key="GridCell.Tab.0.left/0.0.1920.1080/1920.116.1680.1050@0.0.1920.1080" timestamp="1589949185926" />
-    <state width="2517" height="70" key="GridCell.Tab.0.left/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590101966583" />
-    <state width="2517" height="70" key="GridCell.Tab.0.right" timestamp="1590101966583">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state width="1557" height="70" key="GridCell.Tab.0.right/0.0.1600.900/1600.116.1680.1050@0.0.1600.900" timestamp="1589772681642" />
-    <state width="1321" height="361" key="GridCell.Tab.0.right/0.0.1600.900/1600.116.1680.1050@1600.116.1680.1050" timestamp="1589359943806" />
-    <state width="1877" height="70" key="GridCell.Tab.0.right/0.0.1920.1080/1920.116.1680.1050@0.0.1920.1080" timestamp="1589949185927" />
-    <state width="2517" height="70" key="GridCell.Tab.0.right/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590101966583" />
-    <state x="788" y="363" key="SettingsEditor" timestamp="1581160610607">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="788" y="363" key="SettingsEditor/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1581160610607" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1590104358615">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1590104358615" />
-    <state x="831" y="313" width="896" height="904" key="search.everywhere.popup" timestamp="1589132220602">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.116.1680.1050@0.0.1920.1080" timestamp="1589127019764" />
-    <state x="831" y="313" width="896" height="904" key="search.everywhere.popup/0.0.2560.1440/2560.116.1680.1050@0.0.2560.1440" timestamp="1589132220602" />
   </component>
 </project>

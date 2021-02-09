@@ -5,6 +5,7 @@ import dataIO as io
 import argparse
 from tqdm import trange
 import pandas as pd
+from utils import rank_norm
 
 def main():
     parser = argparse.ArgumentParser(description='py, in, out, num')
@@ -47,23 +48,25 @@ def main():
     # print(list)
 
     # load mask
-    topo = pd.read_csv(indir + "topo.csv", header=None).values.tolist()
+    # topo = pd.read_csv(indir + "topo.csv", header=None).values.tolist()
     # print(topo)
     # topo = np.loadtxt(indir + "topo.csv", delimiter=",", dtype="unicode")
-    topo = [flatten for inner in topo for flatten in inner]
+    # topo = [flatten for inner in topo for flatten in inner]
 
-    img = data_set.reshape(num_of_data, side * side * side)
     # file = open(outdir + "filename.txt", mode='w')
 
     # Normalization
-    for i in trange(len(topo)):
-        if topo[i] == 1:
+    data_set = rank_norm(data_set.reshape(num_of_data, side * side * side))
+    data_set = data_set.reshape(num_of_data, side, side, side)
+
+    for i in trange(len(data_set)):
+        # if topo[i] == 1:
             # print(i)
-            eudt_image = sitk.GetImageFromArray(img[i].reshape(side, side, side))
+            eudt_image = sitk.GetImageFromArray(data_set[i].reshape(side, side, side))
             eudt_image.SetSpacing(sitkdata.GetSpacing())
             eudt_image.SetOrigin(sitkdata.GetOrigin())
-            if i <= 606: folder = "test/"
-            elif i <= 1213: folder = "val/"
+            if i <= 602: folder = "test/"
+            elif i <= 602*2: folder = "val/"
             else: folder = "train/"
             sitk.WriteImage(eudt_image, os.path.join(outdir , folder, "{}.mhd".format(str(i).zfill(4))))
             file = open(outdir + folder + "filename.txt", mode='a')
