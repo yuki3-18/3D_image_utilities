@@ -41,7 +41,7 @@ def main():
     c9 = [66, 150, 44]
     c10 = [78, 53, 193]
     # list = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]
-    list = [c1]
+    list = [c7]
     # list = [c8, c9, c10]
 
     # file = open(path_w + "filename.txt", mode='w')

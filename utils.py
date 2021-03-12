@@ -17,8 +17,6 @@ import torch
 
 
 def masking(img, x_size, y_size, z_size, mask, mask_value1, mask_value2):
-    size = x_size * y_size * z_size
-
     img = np.reshape(img, [z_size, y_size, x_size])
     mask = np.reshape(mask, [z_size, y_size, x_size])
 
@@ -112,50 +110,36 @@ def making_patch(num, img_path, mask_path, patch_side, threshold):
 
 def display_image(img, side, min=0, max=1):
     img = np.reshape(img, [side, side, side])
-    # max = np.max(img)
-    # min = np.min(img)
+    fig, axes = plt.subplots(ncols=side, nrows=1, figsize=(side - 2, 2), constrained_layout=True)
 
-    fig, axes = plt.subplots(ncols=side, nrows=1, figsize=(side - 2, 2))
     for i in range(side):
         axes[i].imshow(img[i].reshape(side, side), vmin=min, vmax=max, interpolation='none', cmap=cm.Greys_r)
         axes[i].set_title('z = %d' % i)
         axes[i].get_xaxis().set_visible(False)
-        axes[i].get_yaxis().set_visible(False)
+        # axes[i].get_yaxis().set_visible(False)
+        axes[0].set_ylabel('k', rotation=0)
+        axes[i].axes.yaxis.set_ticks([])
 
-    # カラーバーの設定
-    # axpos = axes[1].get_position()
-    # cbar_ax = fig.add_axes([0.87, axpos.y0, 0.02, axpos.height])
-    # # norm = colors.Normalize(vmin=df['price'].min(), vmax=df['price'].max())
-    # mappable = ScalarMappable()
-    # mappable._A = []
-    # fig.colorbar(mappable, cax=cbar_ax)
-    # # 余白の調整
-    # plt.subplots_adjust(right=0.85)
-    # plt.subplots_adjust(wspace=0.1)
-    # plt.savefig(outdir + "/axial_generate.png")
     plt.show()
 
-    fig, axes = plt.subplots(ncols=side, nrows=1, figsize=(side - 2, 2))
+    fig, axes = plt.subplots(ncols=side, nrows=1, figsize=(side - 2, 2), constrained_layout=True)
     for i in range(side):
         axes[i].imshow(img[:, i].reshape(side, side), vmin=min, vmax=max, interpolation='none', cmap=cm.Greys_r)
         axes[i].set_title('y = %d' % i)
         axes[i].get_xaxis().set_visible(False)
         axes[i].get_yaxis().set_visible(False)
-    #
-    # fig.colorbar(img)
-    # # plt.savefig(outdir + "/coronal_generate.png")
+
     plt.show()
     #
-    fig, axes = plt.subplots(ncols=side, nrows=1, figsize=(side - 2, 2))
+    fig, axes = plt.subplots(ncols=side, nrows=1, figsize=(side - 2, 2), constrained_layout=True)
     for i in range(side):
         axes[i].imshow(img[:, :, i].reshape(side, side), vmin=min, vmax=max, interpolation='none', cmap=cm.Greys_r)
         axes[i].set_title('x = %d' % i)
         axes[i].get_xaxis().set_visible(False)
         axes[i].get_yaxis().set_visible(False)
 
-    # fig.colorbar(img)
-    # # plt.savefig(outdir + "/sagital_generate.png")
     plt.show()
+    plt.close()
 
 
 def display_image2(img1, img2, side, outdir):

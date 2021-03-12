@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b3c2a7-7399-44bc-96f0-90d7733ffa8d" name="Default" comment="Clear">
-      <change afterPath="$PROJECT_DIR$/betti.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boxplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thresholding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/3D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3D.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="65b3c2a7-7399-44bc-96f0-90d7733ffa8d" name="Default" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/display_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/display_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boxplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/boxplot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitting_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitting_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hypothesis_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/hypothesis_testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/making_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/making_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_patch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/masking.py" beforeDir="false" afterPath="$PROJECT_DIR$/masking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile_fitting.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile_fitting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
@@ -68,7 +58,7 @@
       <recent name="C:\Users\saeki\PycharmProjects\3D" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.display_dataset">
+  <component name="RunManager" selected="Python.profile_fitting">
     <configuration name="3D" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,27 +74,6 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
-    </configuration>
-    <configuration name="betti" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="3D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/betti.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="boxplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3D" />
@@ -148,6 +117,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="display_img" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/display_img.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hypothesis_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="standardization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="profile_fitting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3D" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,7 +171,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standardization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profile_fitting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,19 +181,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.standardization" />
-      <item itemvalue="Python.display_dataset" />
-      <item itemvalue="Python.betti" />
-      <item itemvalue="Python.hypothesis_testing" />
       <item itemvalue="Python.boxplot" />
+      <item itemvalue="Python.display_dataset" />
+      <item itemvalue="Python.display_img" />
+      <item itemvalue="Python.hypothesis_testing" />
+      <item itemvalue="Python.profile_fitting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.display_dataset" />
+        <item itemvalue="Python.profile_fitting" />
+        <item itemvalue="Python.display_img" />
         <item itemvalue="Python.boxplot" />
         <item itemvalue="Python.hypothesis_testing" />
-        <item itemvalue="Python.standardization" />
-        <item itemvalue="Python.betti" />
+        <item itemvalue="Python.display_dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590104474912</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update">
+      <created>1612884535918</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612884535918</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,6 +318,7 @@
     <MESSAGE value="Improved" />
     <MESSAGE value="Updated" />
     <MESSAGE value="Clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clear" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
